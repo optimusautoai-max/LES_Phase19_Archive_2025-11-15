@@ -1,0 +1,22 @@
+{
+  "name": "LES Phase 19 – Endpoint & CORS Health Panel",
+  "version": "2025-11-15",
+  "description": "Internal LES diagnostic panel showing PASS/FAIL status for Projects 1, 2, and 3.",
+  "endpoints": {
+    "project1": "https://script.google.com/macros/s/AKfycbwI8CmfO1sSdJdP6qpfNFFIeSpK02CMvgdJG_Yp01gSOJWlTuNzhF7muqYjCZ2nY2rzaA/exec",
+    "project2": "https://script.google.com/macros/s/AKfycbxyhAI139hUNE-cAprzHBGC0jfh3khCufztPCIuCy0vQDycuDJrmqNpcHRPMs936e-2/exec",
+    "project3": "https://script.google.com/macros/s/AKfycbxp84HMEiB-WAmEMMYPRVBzfqVcrUpXyNRtjTMiF7ocBpAP82PBOQhWY2ZLba6mAuY7kw/exec"
+  },
+  "ui": {
+    "style": {
+      "background": "#0B182B",
+      "panel": "#131C2F",
+      "success": "#00E44C",
+      "fail": "#C20000",
+      "border": "#FF6A00",
+      "text": "#E5E7EB"
+    },
+    "title": "LES Phase 19 – Endpoint & CORS Health",
+    "intro": "System-wide diagnostic for the Lionheart Executive System (LES). Automatically checks GET, POST, and OPTIONS behavior for all three backend modules."
+  }
+}
